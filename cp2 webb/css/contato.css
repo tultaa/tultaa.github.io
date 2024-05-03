@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4F4F4F; /* Cor de fundo mais clara */
+  }
+  
+  header {
+    background-color: #000000; /* Cor de fundo do cabeçalho */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px; /* Tamanho do logotipo */
+    height: 40px; /* Tamanho do logotipo */
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline; /* Efeito de sublinhado ao passar o mouse */
+  }
+  
+  #contact {
+    padding: 20px;
+  }
+  
+  #contact h2 {
+    font-size: 24px; /* Tamanho do título */
+    color: #ffffff; /* Cor do texto */
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Largura máxima do formulário */
+  }
+  
+  #contact label {
+    color: #ffffff; /* Cor do texto */
+    margin-bottom: 10px;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="tel"],
+  #contact input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #contact button {
+    padding: 10px 20px;
+    background-color: #000000; /* Cor de fundo do botão */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #333333; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  footer {
+    background-color: #000000; /* Cor de fundo do rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
